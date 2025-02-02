@@ -1,0 +1,162 @@
+@import "../../vars.css";
+.container {
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+  background: linear-gradient(180deg, #576cbc 0%, #132a53 100%);
+  box-shadow: 0 16px 14px 0 #04152d;
+  width: 340px;
+  height: 480px;
+  transition: transform 0.3s ease-in-out;
+  overflow: hidden;
+  padding: 20px;
+}
+
+.container:hover {
+  transform: scale(1.02);
+}
+
+.imageWrapper {
+  width: 100%;
+  height: 200px;
+  overflow: hidden;
+}
+
+.image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 10px 10px 0 0;
+}
+
+.content {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.title {
+  font-size: 22px;
+  font-weight: 700;
+  text-align: center;
+  margin: 0;
+}
+
+.description {
+  margin-top: 8px;
+  font-size: 16px;
+  font-weight: 400;
+  text-align: center;
+  flex-grow: 1;
+}
+
+.skills {
+  width: 100%;
+  margin: 14px 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  justify-content: center;
+  list-style: none;
+  padding: 0;
+}
+
+.skill {
+  font-size: 14px;
+  font-weight: 400;
+  border-radius: 100px;
+  background: var(--color-dark);
+  padding: 6px 12px;
+  text-align: center;
+}
+
+.links {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: auto;
+}
+
+.link {
+  text-decoration: none;
+  color: var(--color-text);
+  font-size: 16px;
+  font-weight: 600;
+  border-radius: 50px;
+  background: var(--color-primary);
+  padding: 8px 16px;
+  transition: background 0.3s;
+}
+
+.link:hover {
+  background: var(--color-dark);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .container {
+    width: calc(50% - 20px);
+    min-width: 280px;
+    height: 450px;
+  }
+
+  .imageWrapper {
+    height: 180px;
+  }
+
+  .title {
+    font-size: 20px;
+  }
+
+  .description {
+    font-size: 14px;
+  }
+
+  .skill {
+    font-size: 12px;
+    padding: 4px 10px;
+  }
+
+  .link {
+    font-size: 14px;
+    padding: 6px 12px;
+  }
+}
+
+@media (max-width: 480px) {
+  .container {
+    width: 100%;
+    height: 420px;
+  }
+
+  .imageWrapper {
+    height: 160px;
+  }
+
+  .content {
+    padding: 15px;
+  }
+
+  .title {
+    font-size: 18px;
+  }
+
+  .description {
+    font-size: 13px;
+  }
+
+  .skills {
+    gap: 6px;
+  }
+
+  .skill {
+    font-size: 11px;
+    padding: 4px 8px;
+  }
+
+  .link {
+    font-size: 13px;
+    padding: 5px 10px;
+  }
+}

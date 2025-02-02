@@ -1,0 +1,43 @@
+[
+  {
+    "title": "HTML",
+    "imageSrc": "skills/html.png"
+  },
+  {
+    "title": "CSS",
+    "imageSrc": "skills/css.png"
+  },{
+    "title":"javascipt",
+    "imageSrc":"skills/js.png"
+  },
+  {
+    "title":"Java",
+    "imageSrc":"skills/java.png"
+  },
+  {
+    "title": "React",
+    "imageSrc": "skills/react.png"
+  },
+  {
+    "title": "Node",
+    "imageSrc": "skills/node.png"
+  },
+  {
+    "title": "Rest API",
+    "imageSrc": "skills/rest.png"
+  },
+  {
+    "title": "MongoDB",
+    "imageSrc": "skills/mongodb.png"
+  },{
+    "title":"MySql",
+    "imageSrc":"skills/mysql.png"
+  },{
+    "title":"redux",
+    "imageSrc":"skills/redux.png"
+  },{
+    "title":"Docker",
+    "imageSrc":"skills/docker.png"
+  }
+  
+]

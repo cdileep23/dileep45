@@ -1,0 +1,34 @@
+[
+  {
+    "title": "WeFit: Fitness and Meal Tracking Platform",
+    "imageSrc": "projects/wefit.png",
+    "description": "A MERN stack application for fitness tracking and meal management, offering real-time calorie tracking and activity summaries.",
+    "skills": ["MongoDB", "Express", "React", "Node.js", "MUI"],
+    "demo": "https://wefit-46dz.onrender.com/",
+    "source": "https://github.com/cdileep23/wefit"
+  },
+  {
+    "title": "Decentralized Marketplace for Farmers",
+    "imageSrc": "projects/project.png",
+    "description": "A blockchain-powered marketplace enabling transparent, secure market access for farmers and buyers.",
+    "skills": ["React", "Node.js", "Express.js", "Web3.js", "Solidity", "MetaMask"],
+  
+    "source": "https://github.com/cdileep23/decentralized-marketplace"
+  },
+  {
+    "title": "VoiceGPT: Voice-Controlled AI Assistant",
+    "imageSrc": "projects/voice.png",
+    "description": "An AI-powered voice assistant using Google Generative AI for natural language processing and interaction.",
+    "skills": ["Python", "Google Generative AI", "Speech Recognition", "Gemini AI"],
+   
+    "source": "https://github.com/cdileep23/voicegptpython"
+  },
+  {
+    "title": "Sorting Visualizer",
+    "imageSrc": "projects/sorting.png",
+    "description": "A Java-based application to visually demonstrate sorting algorithms with step-by-step animations.",
+    "skills": ["Java", "Swing", "AWT", "Threads"],
+
+    "source": "https://github.com/cdileep23/sorting-visualizer"
+  }
+]
