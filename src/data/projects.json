@@ -29,6 +29,6 @@
     "description": "A Java-based application to visually demonstrate sorting algorithms with step-by-step animations.",
     "skills": ["Java", "Swing", "AWT", "Threads"],
 
-    "source": "https://github.com/cdileep23/sorting-visualizer"
+    "source": "https://github.com/cdileep23/sorting"
   }
 ]
