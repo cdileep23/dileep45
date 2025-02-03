@@ -23,6 +23,10 @@
     "imageSrc": "skills/node.png"
   },
   {
+    "title": "Express",
+    "imageSrc": "skills/express.png"
+  },
+  {
     "title": "Rest API",
     "imageSrc": "skills/rest.png"
   },
