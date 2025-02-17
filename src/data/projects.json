@@ -29,6 +29,15 @@
     "source": "https://github.com/cdileep23/voicegptpython"
   },
   {
+    "title": "Code Snippet Manager",
+    "imageSrc": "projects/snippet.png",
+    "description": "A Next.js-based web app that allows users to add, edit, view, and delete code snippets using the Monaco Code Editor, powered by Prisma and SQLite.",
+    "skills": ["Next.js", "TypeScript", "Prisma", "SQLite", "Monaco Editor"],
+   
+    "source": "https://github.com/cdileep23/snippet-ts-nextjs"
+  }
+,  
+  {
     "title": "Sorting Visualizer",
     "imageSrc": "projects/sorting.png",
     "description": "A Java-based application to visually demonstrate sorting algorithms with step-by-step animations.",
