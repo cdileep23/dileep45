@@ -6,6 +6,15 @@
   "source": "https://github.com/cdileep23/weConnect-server",
   "demo":"http://13.201.4.123/"
 },
+{
+  "title": "DebugHub: Collaborative Bug Tracking Platform",
+  "imageSrc": "projects/debugHub.png",
+  "description": "A Next.js application for developers to post bugs with solutions, allowing other users to like, comment, and collaborate on resolving errors.",
+  "skills": ["Next.js", "TypeScript", "Prisma", "PostgreSQL", "Clerk", "Shadcn UI", "NeonDB"],
+  
+  "source": "https://github.com/cdileep23/debugHub"
+}
+,
   {
     "title": "WeFit: Fitness and Meal Tracking Platform",
     "imageSrc": "projects/wefit.png",
