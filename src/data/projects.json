@@ -1,4 +1,19 @@
-[  {
+[ {
+  "title": "Socially: Full-Stack Social Media Platform",
+  "imageSrc": "projects/socially.png",
+  "description": "A modern social network with real-time interactions, media sharing, and enhanced performance, using Next.js 15 and NeonDB.",
+  "skills": ["Next.js", "TypeScript", "Prisma", "PostgreSQL", "Clerk", "Shadcn UI", "UploadThing", "NeonDB"],
+  "source": "https://github.com/cdileep23/Socially45",
+  "demo":"https://socially45.vercel.app/"
+},
+{
+  "title": "Birdz: Indian Bird Species Classifier",
+  "imageSrc": "projects/birdz.png",
+  "description": "A web app that detects and classifies 14 Indian bird species using a TensorFlow model with a Bayesian feedback system, offering 3-language support and real-time AWS S3 image processing.",
+  "skills": ["TensorFlow", "React.js", "Node.js", "AWS S3", "Machine Learning"],
+  "source": "https://github.com/cdileep23/bird-species-classification-in-natural-habitat",
+  "demo":"https://birdzin.vercel.app/"
+}, {
   "title": "WeConnect45: Real-Time Social Connection Platform",
   "imageSrc": "projects/weconnect.png",
   "description": "A MERN stack application enabling users to connect with random people, send requests, and chat upon mutual acceptance.",
