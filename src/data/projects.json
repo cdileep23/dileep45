@@ -1,35 +1,45 @@
-[ {
-  "title": "Socially: Full-Stack Social Media Platform",
-  "imageSrc": "projects/socially.png",
-  "description": "A modern social network with real-time interactions, media sharing, and enhanced performance, using Next.js 15 and NeonDB.",
-  "skills": ["Next.js", "TypeScript", "Prisma", "PostgreSQL", "Clerk", "Shadcn UI", "UploadThing", "NeonDB"],
-  "source": "https://github.com/cdileep23/Socially45",
-  "demo":"https://socially45.vercel.app/"
-},
-{
-  "title": "Birdz: Indian Bird Species Classifier",
-  "imageSrc": "projects/birdz.png",
-  "description": "A web app that detects and classifies 14 Indian bird species using a TensorFlow model with a Bayesian feedback system, offering 3-language support and real-time AWS S3 image processing.",
-  "skills": ["TensorFlow", "React.js", "Node.js", "AWS S3", "Machine Learning"],
-  "source": "https://github.com/cdileep23/bird-species-classification-in-natural-habitat",
-  "demo":"https://birdzin.vercel.app/"
-}, {
-  "title": "WeConnect45: Real-Time Social Connection Platform",
-  "imageSrc": "projects/weconnect.png",
-  "description": "A MERN stack application enabling users to connect with random people, send requests, and chat upon mutual acceptance.",
-  "skills": ["MongoDB", "Express", "React.js", "Node.js", "Socket.io", "AWS SES", "AWS EC2"],
-  "source": "https://github.com/cdileep23/weConnect-server",
-  "demo":"http://13.201.4.123/"
-},
-{
-  "title": "DebugHub: Collaborative Bug Tracking Platform",
-  "imageSrc": "projects/debugHub.png",
-  "description": "A Next.js application for developers to post bugs with solutions, allowing other users to like, comment, and collaborate on resolving errors.",
-  "skills": ["Next.js", "TypeScript", "Prisma", "PostgreSQL", "Clerk", "Shadcn UI", "NeonDB"],
+[
   
-  "source": "https://github.com/cdileep23/debugHub"
-}
-,
+  {
+    "title": "Summarize - AI Document Summarization",
+    "imageSrc": "projects/summarize.png",
+    "description": "AI-powered PDF summarization (300 pages → emoji-markdown) with 89% accuracy using Gemini 1.5 Pro and LangChain.",
+    "skills": ["Next.js", "TypeScript", "LangChain", "Google Gemini", "UploadThing", "Clerk", "NeonDB", "Tailwind", "Shadcn UI"],
+    "source": "https://github.com/cdileep23/summarize",
+    "demo": "https://summarize-roan.vercel.app/"
+  },
+  {
+    "title": "PDF-to-XML Conversion Platform",
+    "imageSrc": "projects/pdftoxml.png",
+    "description": "AI converts PDFs to XML (92% accuracy) with JWT auth, Socket.io, and 40% AWS cost reduction.",
+    "skills": ["React.js", "Redux", "Node.js", "Express.js", "Socket.io", "JWT", "OpenRouter", "AWS S3"],
+    "source": "https://github.com/cdileep23/pdf-to-xml",
+    "demo": "https://pdfxml.vercel.app/"
+  },
+  
+  {
+    "title": "WeConnect45: Real-Time Social Connection Platform",
+    "imageSrc": "projects/weconnect.png",
+    "description": "A MERN stack application enabling users to connect with random people, send requests, and chat upon mutual acceptance.",
+    "skills": ["MongoDB", "Express", "React.js", "Node.js", "Socket.io", "AWS SES", "AWS EC2"],
+    "source": "https://github.com/cdileep23/weConnect-server",
+    "demo": "http://13.201.4.123/"
+  },
+  {
+    "title": "Socially: Full-Stack Social Media Platform",
+    "imageSrc": "projects/socially.png",
+    "description": "A modern social network with real-time interactions, media sharing, and enhanced performance, using Next.js 15 and NeonDB.",
+    "skills": ["Next.js", "TypeScript", "Prisma", "PostgreSQL", "Clerk", "Shadcn UI", "UploadThing", "NeonDB"],
+    "source": "https://github.com/cdileep23/Socially45",
+    "demo": "https://socially45.vercel.app/"
+  },
+  {
+    "title": "DebugHub: Collaborative Bug Tracking Platform",
+    "imageSrc": "projects/debugHub.png",
+    "description": "A Next.js application for developers to post bugs with solutions, allowing other users to like, comment, and collaborate on resolving errors.",
+    "skills": ["Next.js", "TypeScript", "Prisma", "PostgreSQL", "Clerk", "Shadcn UI", "NeonDB"],
+    "source": "https://github.com/cdileep23/debugHub"
+  },
   {
     "title": "WeFit: Fitness and Meal Tracking Platform",
     "imageSrc": "projects/wefit.png",
@@ -38,12 +48,30 @@
     "demo": "https://wefit-46dz.onrender.com/",
     "source": "https://github.com/cdileep23/wefit"
   },
+  
   {
-    "title": "Decentralized Marketplace for Farmers",
-    "imageSrc": "projects/project.png",
-    "description": "A blockchain-powered marketplace enabling transparent, secure market access for farmers and buyers.",
-    "skills": ["React", "Node.js", "Express.js", "Web3.js", "Solidity", "MetaMask"],
-    "source": "https://github.com/cdileep23/DMF"
+    "title": "Birdz: Indian Bird Species Classifier(role:frontend)",
+    "imageSrc": "projects/birdz.png",
+    "description": "TensorFlow-powered Indian bird classifier (14 species) with AWS S3 processing and 3-language support.",
+    "skills": ["TensorFlow", "React.js", "Node.js", "AWS S3", "Machine Learning"],
+    "source": "https://github.com/cdileep23/bird-species-classification-in-natural-habitat",
+    "demo": "https://birdzin.vercel.app/"
+  },
+  {
+    "title": "Notification System Design (100 DAU)",
+    "imageSrc": "projects/notification.png",
+    "description": "Scalable MERN notification system with WebSocket/polling for 100+ DAU real-time alerts.",
+    "skills": ["MongoDB", "Express.js", "React.js", "Node.js", "Socket.io"],
+    "source": "https://github.com/cdileep23/notification",
+    "demo": "https://notification-indol.vercel.app/"
+  },
+  {
+    "title": "Live Polling App with Shared Rooms",
+    "imageSrc": "projects/polling.png",
+    "description": "Create and join poll rooms where users can vote on options with real-time updates. Backend handles room creation and live synchronization using WebSockets.",
+    "skills": ["MongoDB", "Express.js", "React.js", "Node.js", "Socket.io"],
+    "source": "https://github.com/cdileep23/polling",
+    "demo": "https://polling-mauve.vercel.app/"
   },
   {
     "title": "VoiceGPT: Voice-Controlled AI Assistant",
@@ -57,10 +85,8 @@
     "imageSrc": "projects/snippet.png",
     "description": "A Next.js-based web app that allows users to add, edit, view, and delete code snippets using the Monaco Code Editor, powered by Prisma and SQLite.",
     "skills": ["Next.js", "TypeScript", "Prisma", "SQLite", "Monaco Editor"],
-   
     "source": "https://github.com/cdileep23/snippet-ts-nextjs"
-  }
-,  
+  },
   {
     "title": "Sorting Visualizer",
     "imageSrc": "projects/sorting.png",
@@ -68,5 +94,4 @@
     "skills": ["Java", "Swing", "AWT", "Threads"],
     "source": "https://github.com/cdileep23/sorting"
   }
-
 ]
